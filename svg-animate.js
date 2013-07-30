@@ -1,3 +1,19 @@
+/*
+	SVG Path Animation
+	------------------
+	http://github.com/danburzo/svg-animate
+
+	Usage:
+
+	animatePaths({
+		paths: {DOM Element Collection} Path elements to animate
+		duration: {Number} Animation duration in milliseconds
+		easing: {String} Easing function to use, default is 'linear'
+		order: {String} 'parallel' (default) | 'sequence' (TODO) Animate paths in parallel or sequence
+	});
+
+*/
+
 (function(root) {
 
 	// From: https://gist.github.com/gre/1650294
